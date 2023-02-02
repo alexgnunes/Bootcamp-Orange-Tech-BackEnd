@@ -23,5 +23,6 @@ public class ExNomeIdade {
             idade = sc.nextInt();
         }
         System.out.println("continua aqui...");
+        sc.close();
     }
 }

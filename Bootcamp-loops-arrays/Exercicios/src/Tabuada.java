@@ -24,5 +24,6 @@ public class Tabuada {
 
             System.out.println(tabuada + " x " + i + " = " + (tabuada * i));
         }
+        sc.close();
     }
 }

@@ -19,6 +19,7 @@ public class Nota {
             System.out.println("Nota: ");
             nota = sc.nextInt();
         }
+        sc.close();
     }
 
 }

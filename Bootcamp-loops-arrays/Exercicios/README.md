@@ -18,3 +18,11 @@
 
 2. Fatorial: Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
 Ex.: 5!=5.4.3.2.1=120
+
+## Exercicios sobre arrays
+
+1. Ordem Inversa: Faça um Programa que leia um vetor de 5 números inteiros e mostre-os na ordem inversa.
+
+2. Consoantes: Faça um Programa que leia um vetor de 6 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+
+3. Números Aleatórios: Faça um Programa que leia 20 números inteiros aleatórios (entre 0 e 100) armazene-os num vetor. Ao final, mostre os números e seus sucessores.
