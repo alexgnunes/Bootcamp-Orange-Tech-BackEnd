@@ -1,12 +1,10 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         System.out.println("crie uma lista com sete notas: ");
+
 
         List<Double> notas = new ArrayList<>();
         notas.add(9.0);
@@ -46,12 +44,12 @@ public class Main {
         double somaIterator = 0.0;
         System.out.print("exiba a soma dos valores usando iterator: ");
         Iterator<Double> iterator = notas.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             somaIterator += iterator.next();
         }
         System.out.println(somaIterator);
 
-        System.out.println("Exiba a media: " + soma/ notas.size());
+        System.out.println("Exiba a media: " + soma / notas.size());
 
         System.out.println("Remova a nota 9: ");
         notas.remove(9.0);
@@ -63,7 +61,7 @@ public class Main {
 
         System.out.println("Remova as notas menores que 6: ");
         Iterator<Double> iterator1 = notas.iterator();
-        while (iterator1.hasNext()){
+        while (iterator1.hasNext()) {
             double next = iterator1.next();
             if (next < 6) iterator1.remove();
         }
@@ -81,4 +79,4 @@ public class Main {
 
     }
 
-    }
+}
